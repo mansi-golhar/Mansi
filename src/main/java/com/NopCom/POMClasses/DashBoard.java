@@ -29,8 +29,8 @@ public class DashBoard
 	{
 	boolean	Expect= Uatility.BooleanV("Sheet2", 2, 5);
 	boolean Act = logo.isDisplayed();
-	//second command
 	Assert.assertEquals(Act, Expect);
+	//this is my 2 comment 
 	Uatility.ScreenShot(driver);
 	}
 //	public void DashBo()
