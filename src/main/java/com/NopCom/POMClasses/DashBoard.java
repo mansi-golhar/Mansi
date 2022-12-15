@@ -24,10 +24,12 @@ public class DashBoard
 	{
 		PageFactory.initElements(driver, this);
 	}
+	
 	public void logo(WebDriver driver) throws EncryptedDocumentException, IOException
 	{
 	boolean	Expect= Uatility.BooleanV("Sheet2", 2, 5);
 	boolean Act = logo.isDisplayed();
+	//second command
 	Assert.assertEquals(Act, Expect);
 	Uatility.ScreenShot(driver);
 	}
